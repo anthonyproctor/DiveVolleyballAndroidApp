@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Welcome to Dive Volleyball \n www.divevolleyball.com"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:src="@drawable/Dive" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Drop In Hours ($5)"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="-50dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-10dp">
+
+        <TextView
+            android:id="@+id/days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Monday\nFirday\nSaturday\nSunday"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="-20dp"
+            android:layout_alignParentRightLeft="true" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="7:00PM -10:00PM\n7:00PM - 11:00PM\n7:30PM - 10:30PM\n6:00PM - 9:00PM"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="-20dp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+
+</LinearLayout>
