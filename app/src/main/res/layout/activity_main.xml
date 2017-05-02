@@ -34,7 +34,7 @@
             android:text="@string/tv_drop_in_hours"
             android:layout_gravity="center"
             android:textColor="@android:color/white"
-            android:textSize="20sp"
+            android:textSize="20sp"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
