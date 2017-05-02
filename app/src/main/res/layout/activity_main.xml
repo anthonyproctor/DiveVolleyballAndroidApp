@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp"
-        android:text="Welcome to Dive Volleyball \n www.divevolleyball.com"
+        android:text="Welcome to Dive Volleyball\nwww.divevolleyball.com"
         android:textColor="@android:color/white"
         android:textSize="28sp"
         android:textAlignment="center"/>
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="-50dp"
-        android:src="@drawable/Dive" />
+        android:src="@drawable/divevb" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -46,7 +46,7 @@
             android:textColor="@android:color/white"
             android:textSize="20sp"
             android:layout_marginTop="-20dp"
-            android:layout_alignParentRightLeft="true" />
+            android:layout_alignParentLeft="true" />
 
         <TextView
             android:id="@+id/time"
