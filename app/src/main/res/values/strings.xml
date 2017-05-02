@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">VOTR</string>
+    <string name="app_name">Dive Volleyball</string>
+    <string name="tv_title">Welcome to Dive Volleyball\nwww.divevolleyball.com</string>
+    <string name="tv_drop_in_hours">Drop In Hours($5)</string>
+    <string name="tv_drop_in_days">Monday\nFirday\nSaturday\nSunday</string>
+    <string name="tv_drop_in_times">7:00PM -10:00PM\n7:00PM - 11:00PM\n7:30PM - 10:30PM\n6:00PM - 9:00PM</string>
 </resources>
